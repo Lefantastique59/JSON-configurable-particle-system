@@ -23,7 +23,6 @@ class DrawData{
 
     update()
     {
-        this.angle += this.rotation;
     }
 
     static #standardize_Color(str)
