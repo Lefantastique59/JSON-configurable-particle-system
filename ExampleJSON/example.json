@@ -1,0 +1,73 @@
+{
+    "spawners": [
+        {
+            "cooldown":0,
+            "angle":0,
+            "rotation":0,
+            "spawnLimits":[
+                {
+                    "x": 0.05,
+                    "y": 0.05
+                },
+                {
+                    "x": 0.95,
+                    "y": 0.95
+                }
+            ],
+            "spawnData":[
+                {
+                    "isSpawner":true,
+                    "iterations":30,
+                    "cooldown":0,
+                    "angle":"runtime_random",
+                    "speed":1,
+                    "rotation":0,
+                    "lifetime":"runtime_random(10,30)",
+                    "position":{
+                        "x":0,
+                        "y":0,
+                        "isRelative":true
+                    },
+                    "spawnData":[
+                        {
+                            "angle":0,
+                            "speed":0,
+                            "rotation":0,
+                            "lifetime":0,
+                            "drawData":{
+                                "color":"randomColor",
+                                "radius":1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "isSpawner":true,
+                    "iterations":30,
+                    "cooldown":0,
+                    "angle":"runtime_random",
+                    "speed":1,
+                    "rotation":0,
+                    "lifetime":"runtime_random(10,30)",
+                    "position":{
+                        "x":0,
+                        "y":0,
+                        "isRelative":true
+                    },
+                    "spawnData":[
+                        {
+                            "angle":0,
+                            "speed":0,
+                            "rotation":0,
+                            "lifetime":0,
+                            "drawData":{
+                                "color":"randomColor",
+                                "radius":1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
