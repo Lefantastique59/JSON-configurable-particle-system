@@ -120,4 +120,4 @@ This program will receive updates in the future to improve it's stability, it's 
 
 Hope you'll enjoy it :D !
 
-![thumnail image](/Assets/thumnail.jpg)
+![thumbnail image](/Assets/thumbnail.jpg)
