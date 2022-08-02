@@ -27,9 +27,9 @@ class Spawner{
             {
                 this.type = 3;
                 this.position = new Vector(spawnerData.position.x, spawnerData.position.y);
-                this.gravityStrength = spawnerData.gravityStrength / 100;
+                this.gravityStrength = (spawnerData.gravityStrength / 100) || 1;
             }
-            else if (spawnerData.speed)
+            else if (spawnerData.speed != undefined)
             {
                 this.type = 4;
                 this.position = new Vector(spawnerData.position.x, spawnerData.position.y);

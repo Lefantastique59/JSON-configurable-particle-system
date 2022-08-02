@@ -45,6 +45,7 @@ let particleSystem = {
     },
     readJSONdata(data){
         this.config.bgColor = data.bgColor || "black";
+        this.canvas.style.backgroundColor = this.config.bgColor;
 
         for (let i = 0; i < data.spawners.length; i++)
         {
@@ -123,7 +124,6 @@ let particleSystem = {
 
     //Run functions
     init: function(canvasID, path) {
-        this.readTextFile(path);
         this.canvas = document.getElementById(canvasID);
         this.ctx = this.canvas.getContext("2d");
         this.canvas.addEventListener("mousemove", this.mouseMovedetect, false);
@@ -133,6 +133,8 @@ let particleSystem = {
 
         this.canvas.setAttribute("base_width", this.canvas.width);
         this.canvas.setAttribute("base_height", this.canvas.height);
+        
+        this.readTextFile(path);
 
         document.addEventListener("fullscreenchange", this.onFullscreen)
 

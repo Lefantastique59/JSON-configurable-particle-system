@@ -1,8 +1,0 @@
-{
-    "type":0,
-    "sType":[2],
-    "date":"16/03/2022",
-    "desc":"Un petit système de particules configuré grâce a un fichier JSON, fait a partir de rien.",
-    "cSize":[560,320],
-    "canFullScreen":true
-}
