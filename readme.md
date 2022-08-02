@@ -71,7 +71,7 @@ The normal spawners uses "basic" value, which means it uses normal values for th
     - "y" : **int or float**
 - "isSpawner" : **boolean**
 
-*If a parameter is provided with invalid type of value, unknown behavior could occur.* 
+*If a parameter is provided with invalid type of value, unknown behavior could occur (will e corrected in a future update).* 
 
 ### Iterating spawners
 
@@ -100,7 +100,7 @@ A "simplified for" expression is a simple string expression that serve to repres
 
 An "simplified for" expression is defined as follows :
 
-*"<int or float> <operation character> <int or float>"*
+*"**int or float** **operation character** **int or float**"*
 
 example : *"0+45"* is a "simplified for" expression that begins with the value 0 then adds up 45 every iterations.
 
